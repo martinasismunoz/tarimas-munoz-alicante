@@ -1,0 +1,512 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 35vh;
+    background-color: WHITE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.imagen-logo{
+    background-color: rgba(175, 10, 55, 1);
+    height:65px;
+    width: 81px;
+    font-size: 80px;
+    color: black;
+    border-radius: 2px;
+    margin: 130px 0px 0px 0px ;
+}
+.titulo-logo{
+    background-color: WHITE;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 1px;
+}
+
+.seccion1{
+    background-size: cover; 
+    background-position: center ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seccion1-menu{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.seccion1-menu input{
+    border: solid rgb(0, 0, 0) 1px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 4px;
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.masquepresupuesto{
+    height: 55vh;
+    padding: 30px 0px;
+    background-color: WHITE;
+    color: rgb(66, 63, 63);
+    font-size: 25px;
+    font-weight: 650;
+    text-align: center;
+    font-family: "Source Sans 3";
+    margin-bottom: 0px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+
+.seccion-imagen{
+    height: 1300px;
+    background-image: url(/imagenes/Sin\ título\ 3.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.descripcion-seccionimagen {
+    align-self: end;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 800;
+    padding-top: 450px;
+    padding-bottom: 100px;
+    text-align: center;
+
+    font-family: "Source Sans 3";
+    font-optical-sizing: auto;  
+}
+
+.iconos-seccion{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    align-self: start;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    font-style:normal;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: white;
+    overflow: hidden;
+}
+.iconos-seccion1, .iconos-seccion12, .iconos-seccion123{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+    text-align: start;
+    justify-content:space-around;
+    align-items: center;    
+    
+    
+}
+.imagen-icono{
+    margin: 10px;
+}
+.icono-asesoramiento img{
+    width: 45px;
+    height: 45px;
+    color: black;
+}
+.icono-instalacion img{
+    width: 45px;
+    height: 45px;
+}
+.icono-suministro img{
+    width: 40px;
+    height: 40px;
+}
+.asesoramiento-seccion1{
+    width: 65%;  
+}
+.instalacion-seccion1{
+    width: 65%;
+}
+.suministro-seccion1{
+    width: 65%;
+}
+
+
+
+
+.seccion-empresa{
+  
+}
+.titulo-empresa{
+    font-weight: 100;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+    color:rgba(175, 10, 55, 1);
+    padding: 120px 0px;
+
+}
+.texto-empresa{
+    padding: 40px;
+    font-size: 20px;
+    background-color: rgba(175, 10, 55, 1);
+    color: white;
+    text-align: center;
+
+}
+.texto-empresa div{
+
+}
+.imagen-empresa{
+    height: 300px;
+    background-image: url(/imagenes/im3rd-media-RTxQBPGA3IQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.seccion-servicios{
+}
+.titulo-servicios{
+    font-size: 40px;
+    padding: 30px 0px;
+    text-align: center;
+    font-weight: 400;
+}
+.contenedor-servicios{
+    
+}
+.contdiv{
+    background-color:  rgba(175, 10, 55, .9);
+    margin: 20px;
+}
+.contdiv-title{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contdiv-subtitle{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: "Source Sans 3";
+    font-weight: 100;
+}
+.contdiv-img{
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.contdiv-img img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.under-servicios{
+    font-size: 40px;
+    padding: 60px 0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+
+
+.boton-seccion{
+    position: fixed;
+    bottom: 30px; 
+    left: 50%; /* Alineación horizontal en el centro */
+    transform: translateX(-50%); /* Centrar el elemento */
+    
+    background-color: rgba(255, 255, 255, 0.6); /* Color de fondo del contenedor */
+    color: rgba(175, 10, 21, 1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Source Sans 3";
+    
+    width: 250px;
+    padding: 10px;
+    border: solid rgb(132, 33, 43) 2px;
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    z-index: 999;
+    letter-spacing: 1px;
+}
+
+
+.formulario-seccion{
+    background-image: url(/imagenes/perrito.png);
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 20px; 
+    margin-bottom: 30px;  
+
+    
+}
+.formulario{
+    width: 80%;
+    display: flex;
+    padding: 10px 20px;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 3px;
+}
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 4px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1.5px;
+
+    appearance: none;
+    -webkit-appearance: none; /* Para navegadores basados en WebKit, como Chrome y Safari */
+    -moz-appearance: none; /* Para navegadores basados en Gecko, como Firefox */
+    -ms-appearance: none; /* Para Internet Explorer */
+    border: none; /* Eliminar el borde predeterminado */
+    outline: none; /* Eliminar el contorno al enfocar el elemento */
+    /* Agrega aquí tus estilos personalizados */
+    color: rgb(250, 250, 250);
+    /* background-color:rgb(255, 255, 255, 0.45); */
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+.formulario input::placeholder{
+    color: rgb(211, 206, 206);
+}
+.formulario textarea::placeholder{
+    color: rgb(204, 200, 200);
+}
+#enviar{
+    border: solid  rgb(55, 226, 29) 1px;
+    font-size: 18px;
+    margin-top: 12px;
+    width: 50%;
+    
+    color: rgb(233, 233, 233);
+    letter-spacing: 2px;
+
+    
+}
+.footer{
+    padding-bottom: 100px;
+    background-color:rgb(81, 79, 79);
+}
+.subtitle-footer{
+    font-size: 25px;
+    padding: 20px 0px 20px 30px;
+    justify-self: center;
+}
+.info-footer{
+    font-size: 20px;
+    padding: 20px 0px 20px 30px;
+}
+
+   
+@media screen and (min-width: 571px) {
+
+    .descripcion-seccionimagen {
+        align-self: end;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-weight: 800;
+        padding-top: 450px;
+        padding-bottom: 100px;
+        text-align: center;
+    
+        font-family: "Source Sans 3";
+        font-optical-sizing: auto;  
+    }
+    .masquepresupuesto{
+        height: 55vh;
+        padding: 30px 0px;
+        background-color: WHITE;
+        color: rgb(66, 63, 63);
+        font-size: 50px;
+        font-weight: 650;
+        text-align: center;
+        font-family: "Source Sans 3";
+        margin-bottom: 0px;
+        align-items: center;
+        letter-spacing: 2px;
+    }
+    .iconos-seccion{
+        margin-top: 50px;
+        padding-bottom: 20px;
+        align-self: start;
+        font-family: "Source Sans 3";
+        font-weight: 400;
+        font-style:normal;
+        display: flex;
+        flex-direction: column;
+        font-size: 35px;
+        color: white;
+        overflow: hidden;
+    }
+
+
+    .iconos-seccion1, .iconos-seccion12, .iconos-seccion123{
+        display: flex;
+        flex-direction: row;
+        margin: 7px;
+        text-align: start;
+        justify-content:space-around;
+        align-items: center;    
+        
+        
+    }
+    .imagen-icono{
+        margin: 10px;
+    }
+    .icono-asesoramiento img{
+        width: 80px;
+        height: 80px;
+        color: black;
+    }
+    .icono-instalacion img{
+        width: 80px;
+        height: 80px;
+    }
+    .icono-suministro img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .titulo-empresa{
+        
+        font-size: 80px;
+    
+    }
+    .texto-empresa{
+
+        font-size: 45px;
+      
+    
+    }
+    .imagen-empresa{
+        height: 800px;
+        background-image: url(/imagenes/im3rd-media-RTxQBPGA3IQ-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .titulo-servicios{
+        font-size: 80px;
+        padding: 50px 0px;
+    
+        font-weight: 400;
+    }
+    .contenedor-servicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+    .contdiv{
+        flex: 1 0 400px; /* Flex-grow: 1 para permitir que los elementos crezcan, flex-basis: 400px para establecer el ancho inicial, flex-shrink: 0 para evitar que los elementos se reduzcan */
+        max-width: 400px; /* Establece un ancho máximo para evitar que los elementos crezcan más allá de 400px */
+        margin: 10px; /* Margen entre los elementos */
+
+    }
+    .contdiv-title{
+        font-size: 50px;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        letter-spacing: 2px;
+    
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .contdiv-subtitle{
+        font-size: 25px;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        font-family: "Source Sans 3";
+        font-weight: 100;
+    }
+    .contdiv-img{
+        max-width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+    .contdiv-img img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .under-servicios{
+        font-size: 40px;
+        padding: 60px 0px;
+        text-align: center;
+        font-weight: 400;
+    }
+    
+    
+    
+    
+    
+    .boton-seccion{
+        position: fixed;
+        bottom: 30px; 
+        left: 50%; /* Alineación horizontal en el centro */
+        transform: translateX(-50%); /* Centrar el elemento */
+        
+        background-color: rgba(255, 255, 255, 0.6); /* Color de fondo del contenedor */
+        color: rgba(175, 10, 21, 1);
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Source Sans 3";
+        
+        width: 250px;
+        padding: 10px;
+        border: solid rgb(132, 33, 43) 2px;
+        border-radius: 5px; /* Borde redondeado */
+        cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+        z-index: 999;
+        letter-spacing: 1px;
+    }
+    
+    
+   
+    
+        
+    }
+
