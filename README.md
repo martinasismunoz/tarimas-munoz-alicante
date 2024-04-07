@@ -1,2 +1,2 @@
 # Tarimas Muñoz Alicante
-Página funcional de comercio de tarimas 
+Página funcional de comercio de tarimas.
